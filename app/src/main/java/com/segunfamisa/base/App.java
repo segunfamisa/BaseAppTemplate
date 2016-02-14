@@ -11,7 +11,7 @@ import com.segunfamisa.base.di.modules.ApplicationModule;
  */
 public class App extends Application {
 
-    private ApplicationComponent applicationComponent;
+    private static ApplicationComponent applicationComponent;
 
     @Override
     public void onCreate() {
@@ -27,7 +27,7 @@ public class App extends Application {
                 .build();
     }
 
-    public ApplicationComponent getApplicationComponent() {
-        return this.applicationComponent;
+    public static ApplicationComponent getApplicationComponent() {
+        return applicationComponent;
     }
 }
