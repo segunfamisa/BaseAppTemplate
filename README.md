@@ -58,3 +58,8 @@ I'm just wrapping my head around DI with dagger
 
 ##Usage
 This part is still work in progress :)
+
+##Todo
+1. Add Usage
+2. Implement MVP Architecture
+3. Add testing templates
