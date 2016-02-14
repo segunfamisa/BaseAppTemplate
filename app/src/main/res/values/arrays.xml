@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_dialog_media_image">
+        <item>Take a new photo</item>
+        <item>Choose an existing photo</item>
+    </string-array>
+
+    <string-array name="items_dialog_media_video">
+        <item>Record a new video</item>
+        <item>Choose an existing video</item>
+    </string-array>
+
+    <string-array name="items_dialog_media_audio">
+        <item>Record new audio</item>
+        <item>Choose an audio file</item>
+    </string-array>
+
+</resources>

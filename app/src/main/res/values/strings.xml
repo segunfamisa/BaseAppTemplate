@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BaseAppTemplate</string>
+
+    <!-- dialog texts -->
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_generic_error_title">Something went wrong!</string>
+
+    <!-- Picker errors -->
+    <string name="picker_error_image">Unable to create image</string>
+    <string name="picker_error_video">Unable to create video</string>
+    <string name="picker_title_image">Choose from gallery</string>
+</resources>
