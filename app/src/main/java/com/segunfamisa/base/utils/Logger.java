@@ -6,7 +6,7 @@ import android.util.Log;
  * Created by segunfamisa on 9/1/15.
  */
 public class Logger {
-    private static String TAG_DEFAULT = "AppName";
+    private static String TAG_DEFAULT = Config.APPNAME;
 
     private static boolean DEBUG_ON = true;
 

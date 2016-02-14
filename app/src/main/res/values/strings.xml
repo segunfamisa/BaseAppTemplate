@@ -4,9 +4,22 @@
     <!-- dialog texts -->
     <string name="dialog_action_ok">OK</string>
     <string name="dialog_generic_error_title">Something went wrong!</string>
+    <!-- title dialog camera permission -->
+    <string name="title_dialog_camera_permission">Unable to access camera</string>
+
+    <!-- message dialog camera permission -->
+    <string name="message_dialog_camera_permission">In order to use this feature, this app requires
+        permission to access your phone camera, click OK to allow access </string>
+
+    <!-- title dialog storage permission -->
+    <string name="title_dialog_storage_permission">Unable to access storage</string>
+
+    <!-- message dialog storage permission -->
+    <string name="message_dialog_storage_permission">In order to use this feature, this app requires permission to access your phone storage, click OK to allow access</string>
 
     <!-- Picker errors -->
     <string name="picker_error_image">Unable to create image</string>
     <string name="picker_error_video">Unable to create video</string>
     <string name="picker_title_image">Choose from gallery</string>
+
 </resources>

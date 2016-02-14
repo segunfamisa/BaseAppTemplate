@@ -11,6 +11,7 @@ import com.segunfamisa.base.di.components.ApplicationComponent;
 import com.segunfamisa.base.di.components.DaggerActivityComponent;
 import com.segunfamisa.base.di.modules.ActivityModule;
 import com.segunfamisa.base.navigator.Navigator;
+import com.segunfamisa.base.utils.AppUtils;
 import com.segunfamisa.base.utils.PreferenceUtils;
 
 import javax.inject.Inject;
@@ -102,5 +103,24 @@ public abstract class BaseActivity extends AppCompatActivity {
             }
             ft.commit();
         }
+    }
+
+    /**
+     * Closes the fragments embedded in this activity, if there are no fragments on the backstack,
+     * it finishes the activity
+     */
+    private void close() {
+        if(getSupportFragmentManager().getBackStackEntryCount() > 0) {
+            getSupportFragmentManager().popBackStack();
+        } else {
+            finish();
+        }
+    }
+
+    /**
+     * Hides the keyboard
+     */
+    protected void hideKeyboard() {
+        AppUtils.hideKeyboard(this);
     }
 }
