@@ -1,13 +1,11 @@
 ## Android App Base template
 When you're starting to write  an app, there are certain classes, methods and lines of code you
 implement over and over. So, I thought I should have base template usable across all my apps.
-In my research, I found alot of boiler plate templates, some of which I adapted some techniques
-and structures from I hope to write an Android Studio plugin to generate this automatically later in the future.
+I hope to write an Android Studio plugin to generate this automatically later in the future.
 
 This template contains some of my favourite packages, config, classes and  methods.
-
-This is still under development, and many ideas for classes, methods and techniques
- including lines of codes, were sourced from various places.
+In my research, I found alot of boiler plate templates, some of which I adapted some techniques
+and structures from. This is still under development, and many ideas were sourced from various places.
 
 Structurally, this tries to follow [Ribot Lab's boiler plate](https://github.com/ribot/android-boilerplate),
 as well as [Fernando Cejas's Clean Architecture](https://github.com/android10/Android-CleanArchitecture)
