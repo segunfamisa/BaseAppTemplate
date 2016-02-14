@@ -63,3 +63,4 @@ This part is still work in progress :)
 1. Add Usage
 2. Implement MVP Architecture
 3. Add testing templates
+4. Write AndroidStudio/IntelliJ template to automatically crate this, with the correct package name
