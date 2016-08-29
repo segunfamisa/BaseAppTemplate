@@ -7,11 +7,6 @@ This template contains some of my favourite packages, config, classes and  metho
 In my research, I found alot of boiler plate templates, some of which I adapted some techniques
 and structures from. This is still under development, and many ideas were sourced from various places.
 
-Structurally, this tries to follow [Ribot Lab's boiler plate](https://github.com/ribot/android-boilerplate),
-as well as [Fernando Cejas's Clean Architecture](https://github.com/android10/Android-CleanArchitecture)
-
-I am learning to use dependency injection with [Fernando's](http://fernandocejas.com/2015/04/11/tasting-dagger-2-on-android/)
-dagger tutorial as well as some other online tutorials.
 
 ##Features
 
