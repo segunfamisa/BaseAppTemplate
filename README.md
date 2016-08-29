@@ -19,14 +19,7 @@ dagger tutorial as well as some other online tutorials.
 I'm just wrapping my head around DI with dagger
 2. `Navigator` class to handle Navigation.
 3. `MediaPickerFragment` (with Android Marshmallow Permission).
-4. `BaseActivity` with the following util methods:
-  1. `addFragment()`
-  2. `replaceFragment()`
-  3. `close()`
-  4. `hideKeyboard()`
-5. `BaseFragment` with the following util methods:
-  1. `closeFragment()`
-  2. `hideKeyboard()`
+4. Base classes - `BaseActivity`, `BaseFragment`, `BasePresenter`
 6. Util classes & methods
   1. `AppUtils` with the following util methods:
         1. `getAppVersion()`
@@ -41,10 +34,8 @@ I'm just wrapping my head around DI with dagger
         2. `getMonthShort()`
         3. `getMonth()`
   4. `DeviceUuidFactory` to retrieve the device id of the device.
-  5. `DialogUtils` with the following util methods:
-        1. `createSimpleOkDialog()` - different overloaded methods with various parameters
-        2. `createProgressDialog()`
-  6. ListUtils
+  5. `DialogUtils`
+  6. `ListUtils`
   7. `Logger` - for logging. Different from `android.util.Log` by a flag `DEBUG_ON` which you can use to toggle whether or not you want to show the log
   8. `NetworkUtils` with the following util methods:
         1. `isNetworkConnected()`
@@ -61,6 +52,5 @@ This part is still work in progress :)
 
 ##Todo
 1. Add Usage
-2. Implement MVP Architecture
-3. Add testing templates
-4. Write AndroidStudio/IntelliJ template to automatically crate this, with the correct package name
+2. Add testing templates
+3. Write AndroidStudio/IntelliJ template to automatically crate this, with the correct package name
