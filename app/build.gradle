@@ -27,6 +27,7 @@ dependencies {
     //dagger
     apt "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
     compile "com.google.dagger:dagger:$rootProject.daggerVersion"
+    provided "javax.annotation:jsr250-api:$rootProject.jsr250Version"
 
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
 }

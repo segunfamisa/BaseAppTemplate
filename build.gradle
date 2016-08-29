@@ -34,5 +34,6 @@ ext {
 
     supportLibraryVersion = '24.1.1'
     daggerVersion = '2.0.2'
+    jsr250Version = '1.0'
     jUnitVersion = '4.12'
 }
