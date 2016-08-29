@@ -11,7 +11,6 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.preference.DialogPreference;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
@@ -23,14 +22,13 @@ import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.Window;
 
-
 import com.segunfamisa.base.R;
-import com.segunfamisa.base.ui.activities.BaseActivity;
-import com.segunfamisa.base.ui.fragments.BaseFragment;
+import com.segunfamisa.base.ui.base.BaseActivity;
+import com.segunfamisa.base.ui.base.BaseDialogFragment;
+import com.segunfamisa.base.ui.base.BaseFragment;
 import com.segunfamisa.base.utils.BitmapUtils;
 import com.segunfamisa.base.utils.Config;
 import com.segunfamisa.base.utils.DialogUtils;
-import com.segunfamisa.base.utils.Logger;
 import com.segunfamisa.base.utils.UriUtils;
 
 import java.io.File;
@@ -264,8 +262,8 @@ public class MediaPickerDialog extends BaseDialogFragment {
 
 
     public interface MediaPickedListener extends Serializable {
-        public void onMediaItemPicked(Uri fileUri, int mediaType);
-        public void onCancel(String message);
+        void onMediaItemPicked(Uri fileUri, int mediaType);
+        void onCancel(String message);
     }
 
     public static class MediaPickerFragment extends BaseFragment {

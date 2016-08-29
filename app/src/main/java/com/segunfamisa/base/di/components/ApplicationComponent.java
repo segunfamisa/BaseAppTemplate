@@ -4,8 +4,8 @@ import android.content.Context;
 
 import com.segunfamisa.base.di.modules.ApplicationModule;
 import com.segunfamisa.base.navigator.Navigator;
-import com.segunfamisa.base.ui.activities.BaseActivity;
-import com.segunfamisa.base.ui.fragments.BaseFragment;
+import com.segunfamisa.base.ui.base.BaseActivity;
+import com.segunfamisa.base.ui.base.BaseFragment;
 import com.segunfamisa.base.utils.PreferenceUtils;
 
 import javax.inject.Singleton;

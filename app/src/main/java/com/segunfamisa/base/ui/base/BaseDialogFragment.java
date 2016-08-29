@@ -1,4 +1,4 @@
-package com.segunfamisa.base.ui.fragments.dialog;
+package com.segunfamisa.base.ui.base;
 
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;

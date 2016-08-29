@@ -1,4 +1,4 @@
-package com.segunfamisa.base.ui.fragments;
+package com.segunfamisa.base.ui.base;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

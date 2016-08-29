@@ -1,4 +1,4 @@
-package com.segunfamisa.base.ui.activities;
+package com.segunfamisa.base.ui.base;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;

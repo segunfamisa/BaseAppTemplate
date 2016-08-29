@@ -1,10 +1,9 @@
-package com.segunfamisa.base.ui.activities;
+package com.segunfamisa.base.ui.main;
 
 import android.os.Bundle;
 
 import com.segunfamisa.base.R;
-
-import javax.inject.Inject;
+import com.segunfamisa.base.ui.base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 
