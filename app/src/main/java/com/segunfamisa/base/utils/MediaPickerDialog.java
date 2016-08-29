@@ -1,4 +1,4 @@
-package com.segunfamisa.base.ui.fragments.dialog;
+package com.segunfamisa.base.utils;
 
 import android.Manifest;
 import android.app.Activity;
@@ -26,10 +26,6 @@ import com.segunfamisa.base.R;
 import com.segunfamisa.base.ui.base.BaseActivity;
 import com.segunfamisa.base.ui.base.BaseDialogFragment;
 import com.segunfamisa.base.ui.base.BaseFragment;
-import com.segunfamisa.base.utils.BitmapUtils;
-import com.segunfamisa.base.utils.Config;
-import com.segunfamisa.base.utils.DialogUtils;
-import com.segunfamisa.base.utils.UriUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;
